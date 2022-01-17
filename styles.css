@@ -657,6 +657,10 @@ footer {
 /* Small and large phones, tablets */
 
 @media (max-width: 768px) {
+    .shape {
+        display: none;
+    }
+
     .title,
     .header__sub-title {
         font-size: 80px;
